@@ -1,12 +1,21 @@
 {
   "name": "PDCA Dimension Dashboard",
   "organization": "My Company",
-  "description": "Custom real-time control chart component.",
-  "logoUrl": "https://example.com/logo.png",
+  "description": "Custom real-time factory control chart component.",
+  "logoUrl": "https://cdn.jsdelivr.net/gh/PhutawanS0636/pdca-dashboard@main/logo.png",
   "companyUrl": "https://example.com",
-  "supportUrl": "https://example.com/support",
+  "supportUrl": "https://example.com",
+  "devMode": true,
   "resources": {
     "js": "https://cdn.jsdelivr.net/gh/PhutawanS0636/pdca-dashboard@main/dashboard.js",
     "config": "https://cdn.jsdelivr.net/gh/PhutawanS0636/pdca-dashboard@main/dashboard.json"
-  }
+  },
+  "components": [
+    {
+      "id": "pdcaControlChart",
+      "name": "PDCA Real Time Chart",
+      "description": "Monitors live parts dimensions and tolerances.",
+      "iconUrl": "https://cdn.jsdelivr.net/gh/PhutawanS0636/pdca-dashboard@main/icon.png"
+    }
+  ]
 }
