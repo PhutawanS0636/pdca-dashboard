@@ -1,0 +1,12 @@
+{
+  "name": "PDCA Dimension Dashboard",
+  "organization": "My Company",
+  "description": "Custom real-time control chart component.",
+  "logoUrl": "https://example.com/logo.png",
+  "companyUrl": "https://example.com",
+  "supportUrl": "https://example.com/support",
+  "resources": {
+    "js": "gs://your-bucket-name/dashboard.js",
+    "config": "gs://your-bucket-name/dashboard.json"
+  }
+}

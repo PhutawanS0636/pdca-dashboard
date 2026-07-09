@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "id": "dimensionData",
+      "label": "Dimension Metrics Data",
+      "elements": [
+        {
+          "id": "timestamp",
+          "label": "Timestamp",
+          "type": "DIMENSION"
+        },
+        {
+          "id": "measurementValue",
+          "label": "Value (mm)",
+          "type": "METRIC"
+        }
+      ]
+    }
+  ]
+}
